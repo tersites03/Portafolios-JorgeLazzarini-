@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
@@ -17,30 +17,33 @@
 <body>
     <!--encabezado-->
 
-    <header class="menu__header">
-        <img src="assets\vector.png">
-        <h3 class="menu__title">Jorge Lazzarini</h3>
+    <header>
+        <!-- Sección del Header/Title/Hero -->
+        <div class="logo">
+            <img class="logo-img" src="assets\vector.png">
+            <h3 class="titulo-menu">Jorge Lazzarini</h3>
+        </div>
+
+        <nav>
+            <!-- Sección del Menú  -->
+            <ul class="menu__list">
+                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
+                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
+                <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+            </ul>
+            <li class="menu__list__item__c"><a href="#contacto">contacto@fulana.com</a></li>
+        </nav>
+        
     </header>
 
-    <!-- Sección del Menú  -->
 
-    <main class="contenedor_Principal">
+
+    <main class="contenedor__todo">
         
-        <section class="menu">
-            <nav>
-                <ul class="menu__list">
-                    <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                    <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                    <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
-                    <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                    <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                    <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
-                </ul>
-                <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
-            </nav>
-        </section>
-
-        <!-- Sección del Header/Title/Hero -->
+    
         <section class="title">
             <div class="title__div">
                 <img class="title__profile" src="assets\profile.png">
@@ -310,7 +313,7 @@
                     <p>Desarrollado por Fulana de Tal</p>
                     <p>2022</p>
                 </div>
-            </section>
+        </section>
     </main>
     <!-- Script del documento JavaScript -->
     <script src="validacion.js"></script>
