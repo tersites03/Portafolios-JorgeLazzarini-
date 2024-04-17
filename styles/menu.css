@@ -1,0 +1,6 @@
+/*Sección Menu*/
+
+section.menu{
+    display:flex ;
+    width: 100%;
+}
