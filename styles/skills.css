@@ -1,8 +1,8 @@
 .skills{
     display: flex;
     flex-wrap: wrap;
-    padding: 32px;
-    gap: 16px;
+    padding: 16px;
+    gap: 32px;
     flex-direction: column;
 }
 h3.skills__title{
@@ -19,11 +19,11 @@ div.skills__line{
     padding: 16px;
     gap: 32px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 div.skills__box{
-    width: 156px;
+    width: 148px;
     height: 118px;
     gap: 8px;
     display: flex;

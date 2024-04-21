@@ -1,9 +1,72 @@
 /*Sección Hobbies*/
 
 section.hobbies{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 16px;
     
 }
 
+h3.hobbies__title{
+    font-size: 22px;
+    font-weight:700;
+    line-height: 25.83px;
+    text-align: center;
+    color: #464646;
+}
+div.hobbies__line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+div.hobbies__box{
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 148px;
+    height: 118px;
+    background-color: #ffffff;
+    gap: 8px;
+    padding: 16px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+div.hobbies__box ul{
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    flex-direction: column;
+}
+li.hobbies__img{
+    position: relative;
+    display: flex;
+    top: 4px;
+    left: 4px;
+    gap: 8px;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+li.hobbies__img img{
+    width: 32px;
+    height: 32px;
+}
+li.hobbie__name{
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 700;
+    text-align: center;
+    color:#464646;
+}
 
 
 
