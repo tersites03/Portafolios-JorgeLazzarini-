@@ -1,0 +1,38 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+    gap: 16px;
+    flex-direction: column;
+}
+h3.skills__title{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25.83px;
+    text-align: center;
+    color: #464646;
+}
+div.skills__line{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap: 32px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+div.skills__box{
+    width: 156px;
+    height: 118px;
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    justify-content: center;
+    background-color: #ffffff
+}
+
+@media (min-width: 768px){
+    
+}
